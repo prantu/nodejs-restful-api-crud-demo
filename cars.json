@@ -1,0 +1,17 @@
+[
+    {
+     "id": 1,
+     "model": "Toyota",
+     "make": "2016",
+     "color": "silver",
+     "dealerName": "Jason"
+    },
+    {
+     "id": 2,
+     "model": "Porsche",
+     "make": "2015",
+     "color": "Black",
+     "dealerName": "Nerula"
+    }
+]
+    
