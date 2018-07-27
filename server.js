@@ -14,7 +14,7 @@ app.use(bodyParser.json());
 var routes = require('./api/routes/carListRoutes'); // Loading route
 routes(app); // Registering the route
 
-
+// This block will populate the mongodb with dummy data from local cars.json file IF the mongodb is empty. So there will be always something to play with
 mongoose.connection.on('connected', function () { 
   console.log('Mongoose default connection open to ' + 'carsdb');
   

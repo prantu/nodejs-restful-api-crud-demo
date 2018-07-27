@@ -1,5 +1,23 @@
 # A basic app with Simple RESTful API with CRUD using Nodejs + Express + Mongodb
-## Mostly learning from [LinkedIn Nodejs turotial] (https://www.linkedin.com/learning/building-restful-web-apis-with-node-js-and-express/)
+## Mostly learned from [LinkedIn Nodejs tutorial](https://www.linkedin.com/learning/building-restful-web-apis-with-node-js-and-express/)
+
+### This is a simple node app to do CRUD operations with a RESTful API to interact with the server (PORT 4000).
+#### Use [Postman](https://getpostman.com) for API call tests
+##### Examples
+Get all cars
+> GET CARS/
+
+Get a car
+> GET CARS/<_id>
+
+Add a car
+> POST CARS/
+
+Update a car
+> PUT CARS/<_id>
+
+Delete a car
+> DELETE CARS/<_id>
 
 # How to use
 
@@ -8,6 +26,7 @@
 
 Install using command line tool 
 > sudo apt install nodejs
+
 > sudo apt install npm
 
 Check if Node or Node is installed
@@ -23,10 +42,11 @@ Go to the folder and install all dependencies
 ### Running the App
 
 Initiate the database
-> npm mongo
+> npm mongod
 
 Run the server
 > npm run start
+nodemon is attached so any new commit will automatically restart the server
 
 ## Troubleshoot
 
