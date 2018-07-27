@@ -1,1 +1,1 @@
-# nodejs-restful-api-crud-demo
+# A basic app with Simple RESTful API with CRUD using Nodejs + Express + Mongodb
