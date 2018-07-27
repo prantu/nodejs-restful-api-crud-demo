@@ -5,10 +5,10 @@
 #### Use [Postman](https://getpostman.com) for API call tests
 ##### Examples
 Get all cars
-> GET CARS/
+> GET CARS/ | http://localhost:4000/cars
 
 Get a car
-> GET CARS/<_id>
+> GET CARS/<_id> | http://localhost:4000/cars/here-is-your-car-id
 
 Add a car
 > POST CARS/
@@ -24,7 +24,7 @@ Delete a car
 ### Required Packages
 *nodejs*, *npm*
 
-Install using command line tool 
+Install using Linux command line tool 
 > sudo apt install nodejs
 
 > sudo apt install npm
@@ -42,10 +42,11 @@ Go to the folder and install all dependencies
 ### Running the App
 
 Initiate the database
-> npm mongod
+> mongod
 
 Run the server
 > npm run start
+
 nodemon is attached so any new commit will automatically restart the server
 
 ## Troubleshoot
